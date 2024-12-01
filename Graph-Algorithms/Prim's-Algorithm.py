@@ -11,7 +11,7 @@ class Graph():
         self.graph[u].append((w, v))
         self.graph[v].append((w, u))
         
-    def primMST(self):
+    def primsMST(self):
         cost = 0
         visited = set()
         heap = []
@@ -37,5 +37,5 @@ g.addEdge(0, 3, 6)
 g.addEdge(1, 3, 3)
 g.addEdge(2, 1, 1)
 g.addEdge(2, 3, 4)
-cost = g.primMST()
+cost = g.primsMST()
 print(cost)
