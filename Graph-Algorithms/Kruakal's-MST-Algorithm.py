@@ -10,7 +10,8 @@ class Graph():
         
     def find(self, parent, vertex):
         if parent[vertex] != vertex:
-            
         
+        
+                
     def kruskalsMST(self):
         
