@@ -14,5 +14,5 @@ class Graph():
         
                 
     def kruskalsMST(self):
-        pass
+        
         
